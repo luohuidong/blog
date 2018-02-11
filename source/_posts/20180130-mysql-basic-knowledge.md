@@ -1,5 +1,5 @@
 ---
-title: 数据库基础
+title: 数据库基础命令快速查询
 date: 2018-01-30 12:27:44
 tags: 数据库
 ---
@@ -299,10 +299,69 @@ UPDATE table_name SET column1=value1, column2=value2 WHERE condition
 DELETE FROM table_name WHERE condition
 ```
 
-# 索引
+# 其他基本操作
+
+## 索引
 
 对一张表中的某个列建立索引
 
 ```sql
 ALTER TABLE table_name ADD INDEX 索引名 (column_name)
+```
+
+## 视图
+
+视图是一种虚拟存在的表，数据库中只存放了视图的定义，而没有存放视图中的数据，这些数据存放在原来的表中。
+
+```sql
+CREATE VIEW view_name (column_a, column_b, column_c) AS SELECT column1, column2, column3 FROM table_name
+```
+
+## 导入
+
+导入，是将一个文件里的数据保存进一张表中。
+
+```sql
+LOAD DATA INFILE '文件路径和文件名' INTO TABLE table_name
+```
+
+```
+LOAD DATA INFILE '/tmp/SQL6/in.text' INTO TABLE employee;
+```
+
+## 导出
+
+导出是把数据库某个表中的数据保存到一个文件之中。
+
+```sql
+SELECT column1, column2 INTO OUTFILE '文件路径和文件夹' FROM 表名字;
+```
+
+```sql
+SELECT * INTO OUTFILE '/tmp/out.txt' FROM employee;
+```
+
+## 备份
+
+备份命令会生成一个SQL脚本文件，其中包含从头重新创建数据库所必须的命令CREATE TABLE INSERT等。
+
+```sql
+mysqldump -u root 数据库名>备份文件名; #备份整个数据库
+mysqldump -u root 数据库名 表名>备份文件名; #备份文件名;
+```
+
+```
+mysqldump -u root mysql_shiyan > bak.sql;
+```
+
+## 恢复
+
+```
+source /tmp/SQL6/MySQL-06.sql
+```
+
+另外一种是往一个特定的数据库里面恢复数据
+
+```
+source -u root test < bak.sql
 ```

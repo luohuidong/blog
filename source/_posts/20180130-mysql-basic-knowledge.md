@@ -8,9 +8,9 @@ tags: 数据库
 
 本文假设在 Linux 环境下，
 
-# MySQL简单操作
+# 1. MySQL简单操作
 
-## MySQL服务
+## 1.1. MySQL服务
 
 打开 MySQL 服务：
 
@@ -24,31 +24,31 @@ sudo service mysql start
 mysql: unrecognized service`
 ```
 
-## 打开 MySQL
+## 1.2. 打开 MySQL
 
 ```SQL
 mysql -u root -p
 ```
 
-## 新建数据库
+## 1.3. 新建数据库
 
 ```SQL
 CREATE DATABASE database_name;
 ```
 
-## 显示数据库
+## 1.4. 显示数据库
 
 ```SQL
 SHOW DATABASE;
 ```
 
-## 连接数据库
+## 1.5. 连接数据库
 
 ```SQL
 USE database_name
 ```
 
-## 数据类型
+## 1.6. 数据类型
 
 1. INT
 1. FLOAT
@@ -72,15 +72,15 @@ CREATE TABLE table_name(
 )
 ```
 
-## 插入数据
+## 1.7. 插入数据
 
 ```SQL
 INSERT INTO table_name(column_name_a, column_name_b, column_name_c) VALUES(value1, value2, value3);
 ```
 
-# SQL的约束
+# 2. SQL的约束
 
-## 主键
+## 2.1. 主键
 
 ```SQL
 CREATE TABLE employee (
@@ -107,7 +107,7 @@ CREATE TABLE employee (
 );
 ```
 
-## 默认值
+## 2.2. 默认值
 
 ```sql
 CREATE TABLE employee (
@@ -117,7 +117,7 @@ CREATE TABLE employee (
 );
 ```
 
-## 唯一约束
+## 2.3. 唯一约束
 
 ```sql
 CREATE TABLE employee (
@@ -127,7 +127,7 @@ CREATE TABLE employee (
 );
 ```
 
-## 外键约束
+## 2.4. 外键约束
 
 ```sql
 CREATE TABLE employee (
@@ -137,7 +137,7 @@ CREATE TABLE employee (
 )
 ```
 
-## 非空约束
+## 2.5. 非空约束
 
 ```SQL
 CREATE TABLE employee (
@@ -145,7 +145,7 @@ CREATE TABLE employee (
 )
 ```
 
-# SELECT语句
+# 3. SELECT语句
 
 ```SQL
 SELECT name,age FROM employee;
@@ -159,13 +159,13 @@ SELECT name,age FROM employee WHERE age>25 AND age<30;
 SELECT name,age FROM employee WHERE age BETWEEN 25 AND 30;
 ```
 
-## IN 和 NOT IN
+## 3.1. IN 和 NOT IN
 
 ```SQL
 SELECT name,age FROM employee WHERE in_dpt IN ('dpt3', 'dpt4');
 ```
 
-## 通配符
+## 3.2. 通配符
 
 `_` 代表一个未指定字符，`%` 代表不定个未指定字符。
 
@@ -177,7 +177,7 @@ SELECT name,age FROM employee WHERE phone LIKE '1101__';
 SELECT name,age,phone FROM employee WHERE name LIKE 'j%';
 ```
 
-## 排序
+## 3.3. 排序
 
 ASC：升序，DESC：降序
 
@@ -185,7 +185,7 @@ ASC：升序，DESC：降序
 SELECT name,age FROM employee ORDER BY salary DESC;
 ```
 
-## SQL 内置函数和计算
+## 3.4. SQL 内置函数和计算
 
 1. COUNT：计数
 1. SUM：求和
@@ -197,7 +197,7 @@ SELECT name,age FROM employee ORDER BY salary DESC;
 SELECT MAX(salary) AS max_salary,MIN(salary) FROM employee;
 ```
 
-## 子查询
+## 3.5. 子查询
 
 ```sql
 SELECT of_dpt,COUNT(proj_name) AS count_project
@@ -205,7 +205,7 @@ FROM project
 WHERE of_dpt IN (SELECT in_dpt FROM employee WHERE name='Tom')
 ```
 
-## 连接查询
+## 3.6. 连接查询
 
 ```sql
 SELECT id,name,people_num
@@ -221,15 +221,15 @@ ON employee.in_dpt = department.dpt_name
 ORDER BY id;
 ```
 
-# 修改与删除
+# 4. 修改与删除
 
-## 删除数据库
+## 4.1. 删除数据库
 
 ```sql
 DROP DATABASE database_name
 ```
 
-## 重命名一张表
+## 4.2. 重命名一张表
 
 ```sql
 RENAME TABLE old_table_name TO new_table_name
@@ -239,15 +239,15 @@ ALTER TABLE old_table_name TO new_table_name
 ALTER TABLE old_table_name RENAME TO new_table_name
 ```
 
-## 删除表
+## 4.3. 删除表
 
 ```sql
 DROP TABLE table_name
 ```
 
-## 对表中列的修改
+## 4.4. 对表中列的修改
 
-### 增加一列
+### 4.4.1. 增加一列
 
 ```sql
 ALTER TABLE table_name ADD COLUMN column_name column_definition
@@ -265,7 +265,7 @@ ALTER TABLE table_name ADD column_name column_definition AFTER existing_column;
 ALTER TABLE table_name ADD colum _name column_definition FIRST
 ```
 
-### 删除一列
+### 4.4.2. 删除一列
 
 ```sql
 ALTER TABLE table_name DROP COLUMN column_name
@@ -273,35 +273,35 @@ ALTER TABLE table_name DROP COLUMN column_name
 ALTER TABLE table_name DROP column_name
 ```
 
-### 重命名一列
+### 4.4.3. 重命名一列
 
 ```sql
 ALTER TABLE table_name CHANGE old_column_name new_column_name column_definition
 ```
 
-### 改变数据类型
+### 4.4.4. 改变数据类型
 
 ```sql
 ALTER TABLE table_name MODIFY column_name new_column_definition
 ```
 
-## 对表的内容修改
+## 4.5. 对表的内容修改
 
-### 修改表中某个值
+### 4.5.1. 修改表中某个值
 
 ```sql
 UPDATE table_name SET column1=value1, column2=value2 WHERE condition
 ```
 
-### 删除一行记录
+### 4.5.2. 删除一行记录
 
 ```sql
 DELETE FROM table_name WHERE condition
 ```
 
-# 其他基本操作
+# 5. 其他基本操作
 
-## 索引
+## 5.1. 索引
 
 对一张表中的某个列建立索引
 
@@ -309,7 +309,7 @@ DELETE FROM table_name WHERE condition
 ALTER TABLE table_name ADD INDEX 索引名 (column_name)
 ```
 
-## 视图
+## 5.2. 视图
 
 视图是一种虚拟存在的表，数据库中只存放了视图的定义，而没有存放视图中的数据，这些数据存放在原来的表中。
 
@@ -317,7 +317,7 @@ ALTER TABLE table_name ADD INDEX 索引名 (column_name)
 CREATE VIEW view_name (column_a, column_b, column_c) AS SELECT column1, column2, column3 FROM table_name
 ```
 
-## 导入
+## 5.3. 导入
 
 导入，是将一个文件里的数据保存进一张表中。
 
@@ -329,7 +329,7 @@ LOAD DATA INFILE '文件路径和文件名' INTO TABLE table_name
 LOAD DATA INFILE '/tmp/SQL6/in.text' INTO TABLE employee;
 ```
 
-## 导出
+## 5.4. 导出
 
 导出是把数据库某个表中的数据保存到一个文件之中。
 
@@ -341,7 +341,7 @@ SELECT column1, column2 INTO OUTFILE '文件路径和文件夹' FROM 表名字;
 SELECT * INTO OUTFILE '/tmp/out.txt' FROM employee;
 ```
 
-## 备份
+## 5.5. 备份
 
 备份命令会生成一个SQL脚本文件，其中包含从头重新创建数据库所必须的命令CREATE TABLE INSERT等。
 
@@ -354,7 +354,7 @@ mysqldump -u root 数据库名 表名>备份文件名; #备份文件名;
 mysqldump -u root mysql_shiyan > bak.sql;
 ```
 
-## 恢复
+## 5.6. 恢复
 
 ```
 source /tmp/SQL6/MySQL-06.sql

@@ -1,7 +1,7 @@
 ---
 title: Atom 插件
 date: 2018-02-20 13:34:31
-tags:
+tags: tool
 ---
 
 # 1. 通用类插件

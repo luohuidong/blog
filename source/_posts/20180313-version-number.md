@@ -1,7 +1,7 @@
 ---
 title: nodejs 版本号说明
 date: 2018-03-13 21:23:16
-tags: nodejs
+tags: node
 ---
 
 ## 版本号格式

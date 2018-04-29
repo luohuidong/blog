@@ -100,5 +100,11 @@ git branch experimental
 
 运行 `git branch` 就可以查看当前分支的列表，以及目前的开发环境处于哪个分支上。
 
-## 切换分支
+## 切换分支 (git checkout)
+
+```
+git checkout branchname
+```
+
+branchname 为分支名称
 

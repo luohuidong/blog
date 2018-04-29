@@ -1,7 +1,7 @@
 ---
 title: VS code 插件
 date: 2018-02-20 13:37:57
-tags:
+tags: tool
 ---
 
 # 1. 常用插件

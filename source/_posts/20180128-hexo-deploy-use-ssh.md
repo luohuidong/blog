@@ -1,7 +1,7 @@
 ---
 title: Hexo免密部署到GithubPages
 date: 2018-01-28 21:51:26
-tags: Hexo
+tags: hexo
 ---
 
 本文假设已经安装好了 node，git，hexo。

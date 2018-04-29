@@ -1,7 +1,7 @@
 ---
 title: chocolatey 常用命令
 date: 2018-02-20 13:36:40
-tags:
+tags: tool
 ---
 
 # 1. Chocolatey

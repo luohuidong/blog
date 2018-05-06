@@ -88,9 +88,9 @@ git push hostname branchname
 
 `hostname` 为主机名称，`branchname` 为分支名称
 
-# 分支与合并
+# 4. 分支与合并
 
-## 创建和查看分支 (git branch)
+## 4.1. 创建和查看分支 (git branch)
 
 下面的命令，创建了一个叫 experimental 的分支。
 
@@ -100,7 +100,7 @@ git branch experimental
 
 运行 `git branch` 就可以查看当前分支的列表，以及目前的开发环境处于哪个分支上。
 
-## 切换分支 (git checkout)
+## 4.2. 切换分支 (git checkout)
 
 ```
 git checkout branchname
@@ -108,3 +108,64 @@ git checkout branchname
 
 branchname 为分支名称
 
+## 4.3. 分支合并 (git merge)
+
+假设将名为 experimental 的分支合并到主线分支 master，可以通过 `git merge` 命令来合并 experimental 到主线分支 master
+
+```bash
+# 切换到 master 分支
+git checkout master
+
+# 将 experimental 分支合并到 master
+git merge -m 'merge experimental branch' experimental
+```
+
+### 4.3.1. 解除分支合并冲突的问题
+
+在合并两个分支的时候，如果提示合并失败时，先用 `git status` 查看状态，然后按照提示，修改相应的文件即可。
+
+### 4.3.2. 删除已合并的分支 (git branch -d)
+
+完成合并之后，分支不再需要的时候，则可以用下面的命令删除：
+
+```bash
+git branch -d branchname
+```
+
+branchname 为分支名称
+
+`git branch -d` 只能删除已经被当前分支合并的分支。
+
+`git branch -D` 可以强制删除某个分支。
+
+### 4.3.3. 撤销合并
+
+```bash
+git reset --hard HEAD^
+```
+
+# 5. 日志
+
+## 5.1. 查看日志 (git log)
+
+```bash
+git log
+```
+
+当进入到看 log 的页面，可按 `p` 退出
+
+## 5.2. 日志统计 (git log --stat)
+
+`git log --stat` 会显示每个提交 (commit) 中哪些文件被修改了，这些文件分别添加或删除了多少行内容，这个命令相当于打印详细的提交记录。
+
+# 比较
+
+# 比较提交
+
+`git diff` 可以查看当前工作目录中修改的内容，并不包含新加文件，注意这些内容还没有添加到本地缓存区。
+
+`git add *` 将修改内容添加到本地缓存，通配符可以把当前目录下所有修改的新增文件都自动添加。当运行完 `git add*` 之后，会发现执行 `git diff` 没有任何内容输出，说明当前目录的修改都被添加到缓存区。此时如果需要查看缓存区内与上次提交之间的差别，可以通过执行 `git diff --cached`。
+
+# 比较分支
+
+`git diff BranchName OrderBranchName`

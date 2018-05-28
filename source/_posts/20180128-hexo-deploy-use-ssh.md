@@ -6,7 +6,7 @@ tags: hexo
 
 本文假设已经安装好了 node，git，hexo。
 
-# 1. 新建GithubPages
+# 新建GithubPages
 
 1. 登陆 Github 之后，点击 New repository，转跳到创建新仓库的页面
 
@@ -14,7 +14,7 @@ tags: hexo
 
 3. 创建完仓库之后，请记下 SSH URLs，这个后面在修改 hexo _config.yml 文件配置的时候要用到。
 
-# 2. _config.yml文件配置
+# _config.yml文件配置
 
 将 Hexo 部署到 Github Pages 之前，需要对 _config.yml 中的参数进行修改。
 
@@ -34,7 +34,7 @@ deploy:
   branch: master
 ```
 
-# 3. 生成SSH私钥与公钥
+# 生成SSH私钥与公钥
 
 打开 Git Bash，运行命令 `cd .ssh/`，`ls` 查看当前文件是否已经有公钥和私钥了，如果有的话，则不用生成了。
 
@@ -42,7 +42,7 @@ deploy:
 
 有了公钥之后，在公钥的当前文件夹运行 `cat id_rsa.pub | clip`，则会将公钥文件中的内容内容放在剪贴板上。
 
-# 4. 将公钥添加到Github
+# 将公钥添加到Github
 
 1. 在 Github 页面点击右上角自己的头像。
 1. 选择 settings。
@@ -51,7 +51,7 @@ deploy:
 1. 将公钥复制到 key 文本输入框中
 1. 点击 Add SSH key 按钮
 
-# 5. 测试SSH连接
+# 测试SSH连接
 
 打开 Git Bash 运行 `ssh -t git@github.com`
 
@@ -78,11 +78,11 @@ Hi username! You've successfully authenticated, but Github does not
 provide shell access.
 ```
 
-# 6. 将hexo部署到Github
+# 将hexo部署到Github
 
 历经千辛万苦，终于可以将 hexo 部署到 Github 了。在 hexo 博客文件夹打开命令行，然后运行 `hexo generate --deploy` ，就会自动部署啦。部署完之后，打开你的 Gighub pages 就能看到你的博客了。
 
-# 7. 参考资料
+# 参考资料
 
 1. [hexo官方文档](https://hexo.io/docs/)
 

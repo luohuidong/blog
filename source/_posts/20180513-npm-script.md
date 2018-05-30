@@ -4,7 +4,7 @@ tags: npm
 date: 2018-05-13 23:40:59
 ---
 
-# 1. 多个 npm script 串行
+## 多个 npm script 串行
 
 用 `&&` 符号将多个 npm script 串起来即可
 
@@ -21,13 +21,13 @@ date: 2018-05-13 23:40:59
 
 串行执行的时候，如果前序命令失败，后续全部命令都会终止。
 
-# 2. 多个 npm script 并行
+## 多个 npm script 并行
 
 npm script 的并行，就是将串行的 `&&` 符号改为 `&` 即可。
 
 多个 npm script 并行运行的时候，可能会出现进程结束之后，结果才会输出的情况
 
-# 3. npm-run-all（推荐）
+## npm-run-all（推荐）
 
 [npm-run-all](https://github.com/mysticatea/npm-run-all) 实现更轻量和简洁的多命令运行。
 

@@ -4,7 +4,7 @@ date: 2018-02-20 13:37:57
 tags: tool
 ---
 
-# 1. 常用插件
+## 常用插件
 
 - vscode-icons：资源树目录图标
 - vsCode Great Icons
@@ -13,11 +13,11 @@ tags: tool
 - Auto Rename Tag
 - EditorConfig for VS Code
 
-# 2. react 插件
+## react 插件
 
 - react-beautify
 
-# 3. MarkDown 插件
+## MarkDown 插件
 
 - Markdown TOC：标题生成
 - Markdown Preview Github Styling

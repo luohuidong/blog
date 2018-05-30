@@ -4,7 +4,7 @@ date: 2018-02-20 13:34:31
 tags: tool
 ---
 
-# 1. 通用类插件
+## 通用类插件
 
 - emmet：代码快速输入
 - file-icons：文件图标
@@ -17,7 +17,7 @@ tags: tool
 - editorconfig
 - autoclose-tags
 
-# 2. 前端类插件
+## 前端类插件
 
 - atom-beautify：代码的美化
 - atom-ternjs：js语法支持
@@ -27,11 +27,11 @@ tags: tool
 - react-native-snippets
 - react-snippets
 
-# 3. 终端插件
+## 终端插件
 
 - platformio-ide-terminal：atom中使用终端
 
-# 4. MarkDown类插件
+## MarkDown类插件
 
 - markdown-preview-enhanced
 - tidy-markdown

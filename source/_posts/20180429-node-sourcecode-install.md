@@ -5,7 +5,7 @@ date: 2018-04-29 13:19:53
 ---
 
 
-# node 源码获取
+## node 源码获取
 
 首先先获取源码的链接
 
@@ -17,7 +17,7 @@ date: 2018-04-29 13:19:53
 wget https://npm.taobao.org/mirrors/node/latest/node-v10.0.0.tar.gz
 ```
 
-# node 编译安装
+## node 编译安装
 
 通过源码链接获取的源码是一个压缩文件，此时需要运行下面命令来解压获取源码文件。
 

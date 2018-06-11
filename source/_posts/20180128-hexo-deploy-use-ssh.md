@@ -68,7 +68,7 @@ Are you sure you want to continue connecting (yes/no)?
 ```
 The authenticity of host 'github.com (IP ADDRESS)' can't be established.
 RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
-Are you sure you want to continue connecting (yes/no)?
+Are you sure you want to contin ue connecting (yes/no)?
 ```
 
 这时输入 yes 即可。如果提示中的 fingerprint 认证成功的话，则会有下面的提示

@@ -2,7 +2,7 @@
 title: 项目准备
 tags:
 - eslint
-- 项目初始化
+- tool
 ---
 
 ## JavaScript 代码检测

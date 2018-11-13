@@ -1,3 +1,1 @@
-# blog-code
-
-hexo 博客代码
+博客：https://luohuidong.github.io/blog/

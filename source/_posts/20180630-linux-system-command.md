@@ -18,7 +18,7 @@ tags: linux
 
 运行 `top` 命令可得到下面的结果
 
-![top-command](/images/command-top.png)
+![top-command](/blog/images/command-top.png)
 
 第一行：系统时间、运行时间、登录终端数、系统负载（三个值分别为 1 分钟、5 分钟、 15 分钟的平均值，数值越小意味着负载越低）
 
@@ -38,7 +38,7 @@ tags: linux
 
 `w` 用于显示登录到系统的用户信息。
 
-![command-w](/images/command-w.png)
+![command-w](/blog/images/command-w.png)
 
 第一行：当前的系统时间、系统从启动到现在已经运行的时间、登录到系统中的用户数、系统负载（三个值分别为 1 分钟、5 分钟、 15 分钟的平均值，数值越小意味着负载越低）。
 
@@ -59,7 +59,7 @@ tags: linux
 
 运行 `df -h` 可得到下面的结果：
 
-![command-df](/images/command-df.png)
+![command-df](/blog/images/command-df.png)
 
 ## 查看 CPU 信息
 

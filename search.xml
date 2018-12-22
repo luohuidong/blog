@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[VS code 常用扩展]]></title>
+    <url>%2Fblog%2F2018%2F12%2F22%2Fvscode-most-used-extensions%2F</url>
+    <content type="text"><![CDATA[EditorConfig for VS Code One Dark Pro TODO Highlight vscode-icons auto 系列 Auto Close Tag Auto Import Auto Rename Tag markdown 系列 Markdown All in One Markdown Preview Github Styling 前端系列 Beautify css/sass/scss/less ESLint IntelliSense for CSS class names in HTML javascript console utils Turbo Console Log Live Server Sublime Babel]]></content>
+      <tags>
+        <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Atom 常用扩展]]></title>
+    <url>%2Fblog%2F2018%2F12%2F22%2Fatom-most-used-extensions%2F</url>
+    <content type="text"><![CDATA[editorconfig file-icons highlight-selected minimap 系列 minimap minimap-find-and-replace minimap-highlight-selected minimap-linter markdown 系列 markdown-code-blocks markdown-writer markdown-preview-enhanced 前端系列 atom-live-server console-log docblockr: 用于生成注释 language-babel linter-eslint]]></content>
+      <tags>
+        <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[windows-most-used-software]]></title>
+    <url>%2Fblog%2F2018%2F12%2F22%2Fwindows-most-used-software%2F</url>
+    <content type="text"><![CDATA[环境 chocolatey jdk python node.js linux 子系统：控制版面 —— 程序 —— 程序与功能 —— 启动或关闭 Windows 功能 —— 勾选“适用于 Linux 的 windows 子系统。 编程 编辑器 &amp; IDE visual studio code Atom Pychrame Android Studio eclipse IntelliJ IDEA 虚拟机 virturalbox genemotion 数据库管理工具 heidiSQL Git 相关 Git fork 命令行工具 ConEmu Cmder 接口调试： postman 服务器相关 XShell FileZilla]]></content>
+      <tags>
+        <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[面向对象]]></title>
+    <url>%2Fblog%2F2018%2F10%2F18%2Foop%2F</url>
+    <content type="text"><![CDATA[对象与类类定义了对象，对象是类的实体。 用建房子来举例子，类就相当于建房子的图纸。而对象，就是一栋栋按照图纸建好的房子。 面向对象面向过程中的变量和函数，在面向对象中对应着对象的属性和方法。 面向对象编程就是在编程时数据结构都通过对象的结构进行存储。也就是说，将属性和方法组织起来进行存储。 为什么使用面向对象在程序设计的过程中用对象的视角分析世界的时候，能够拉近程序设计和真实世界的距离。 面向对象特性封装性所谓的封装，就是将具体的细节、实现过程进行包装、隐藏。 例如使用一台手机，我们不需要了解手机里面的电路、元器件、运用了什么最新的加工工艺。复杂的东西封装在手机里面，我们不了解但是并不影响我们使用手机。 下面举个例子，看看一只狗叫在面向过程和面向对象的程序设计中的实现。 123456789/* 一个面向过程的程序会这样写： */定义莱丝莱丝.设置音调(5)莱丝.吸气()莱丝.吐气()/* 面向对象中狗的吠叫被封装到类中，任何人都可以简单地使用： */定义莱丝是狗莱丝.吠叫() 在面向对象中，狗叫的所有细节是被封装在类的内部的。外部仅仅需要知道调用 吠叫() 这个方法，狗就会叫。至于狗叫的时候，音量是多少、是经过吸气还是呼吸，外部其实不关心。 这就体现了面向对象封装的特性。 继承子类能够继承父类的属性和行为。 多态是指由继承而产生的相关的不同的类，其对象对统一消息会做出不同的响应。 如动物这个父类，衍生出狗和猫这两个子类。 12345678910111213141516171819public class Animal &#123; public void bark() &#123; System.out.println("动物叫"); &#125;&#125;public class Dog extends Animal &#123; @Override public void bark() &#123; System.out.println("狗叫"); &#125;&#125;public class Cat extends Animal &#123; @Override public void bark() &#123; System.out.println("猫叫"); &#125;&#125; 狗和猫，都有 bark() 方法，然而它们 bark() 的行为却不相同，也就是说，它们对 bark() 做出了不同的响应。狗 bark() 是“狗叫”，猫 bark() 是“猫叫”。]]></content>
+      <tags>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[正则表达式]]></title>
+    <url>%2Fblog%2F2018%2F08%2F18%2Fregex%2F</url>
+    <content type="text"><![CDATA[什么是正则表达式正则表达式是一个特殊的字符序列，可用于检测一个字符串是否与我们所写的正则表达式相匹配。 例如我们可以利用正则表达式，找出字符串 app, apple, application, hello, world 所有包含 app 的单词。 元字符，是正则表达式规定的特殊代码 元字符常用元字符 字符 含义 . 匹配除了换行符 ( \n ) 以外的任意字符 \d 匹配一个数字 \D 匹配任意非数字的字符 \s 匹配任意的空白符，如空格，制表符，换行符等等 \S 匹配任意不是空白符的字符 \w 匹配字母或数字或下划线或汉字等 \W 匹配任意不是字母、数字、下划线、汉字的字符 与数量相关的元字符 字符 含义 \* 代表前面的内容出现 0 次或者 0 次以上 + 重复 1 次或更多次 ? 重复 0 次或 1 次 {n} 重复 n 次 {n,} 重复 n 次货更多次 {n, m} 重复 n 到 m次之内 与边界相关的元字符 字符 含义 ^ 匹配字符串的开始 \$ 匹配字符串的结束 \b 代表着单词开头或结尾，也就是单词的分界处，\bhi\b 只匹配 hi 这个单词，hight 这些是匹配不到的 字符集合要想查找一个数字，字母或者数字，空白很简单，可以使用对应的字符集合的元字符。 如果想匹配没有预定义元字符的字符集合，则可以通过 [] 包裹你想匹配的东西即可，如你想匹配元音字母，那么字符集的定义为 [aeiou] 。又例如，如果想匹配 a 或 b 或 c，那么字符集合可以定义为 [abc]。 如果不想匹配字符集合中的任意一个字符，如不想匹配任何一个元音字母，则可以这么定义 [^aeiou] ，这表明是匹配除了 aeiour 这几个字母以外的任意字符。 字符转义如果想匹配元字符本身，那么直接写 . 或者 * 是有问题的，因为你没法去匹配一个 . 或者 * 。因此这个时候，就需要使用 \ 来取消这些字符的特殊意义，如 \. 或者 \* 。如果你想匹配 \ ，也需要转义，\\ 。 分组重复单个字符，那么正则表达式可以这么写，a+ 。那么如果想重复多个字符，就需要用到分组了。通常我们定义分组的时候，用一个小括号 () 括起来，如 (apple)+ ，此时可以匹配 apple 这个字符串 1 次或者多次。 贪婪模式和懒惰模式当正则表达式中包含能接受重复限定符时，通常的行为是尽可能匹配多的字符。以 a.*b 为例，它将会匹配最长的以 a 开始，以 b 结束的字符串。如果用它来搜索 aabab 的话，它会匹配整个字符串 aabab。这就称为贪婪匹配。 有时，我们更需要懒惰匹配，也就是匹配尽可能少的字符。如 a.*?b，意味着匹配 a 任意数量的重复，但是在能使整个匹配成功的前提下使用最少的重复。此时去 匹配字符串 aabab，则会匹配到 aab 和 ab。 匹配模式匹配模式，可以参考这个链接 https://ahkcn.github.io/docs/misc/RegEx-QuickRef.htm]]></content>
+      <tags>
+        <tag>regex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Python 列表]]></title>
+    <url>%2Fblog%2F2018%2F07%2F05%2Fpython-list%2F</url>
+    <content type="text"><![CDATA[Python 列表与 JavaScript 中的数据有点类似。 Python 中定义列表如下： 123#!/usr/bin/env python3a = [1, 2, 'a']print(a) # [1, 2, 'a'] 访问列表的值列表是通过索引来访问列表中的每一个值。 1234#!/usr/bin/env python3a = [1, 2, 'a']print(a[0]) # 1print(a[2]) # a 当索引为负数的时候，则是从列表的末尾开始读取值。 1234#!/usr/bin/env python3a = [1, 2, 'a']print(a[-1]) # aprint(a[-2]) # 2 获取列表长度123#!/usr/bin/env python3a = [1, 2, 3]print(len(a)) # 3 检验某值是否在列表中1234#!/usr/bin/env python3a = [1, 2, 3]print(1 in a) # Trueprint('a' in a) # False 切片python 的切片规则跟 JavaScript 中数组 slice 方法方法类似。我们可以理解切片其实就是提取切片中的某一部分。切片并不会改变正在操作的切片，它会返回一个新的列表。 12345#!/usr/bin/env python3a = [1, 2, 'a', 'b', 'c']print(a[0:-1]) # [1, 2, 'a', 'b']print(a[:-2]) # [1, 2, 'a']print(a[:]) # [1, 2, 'a', 'b', 'c'] 上面的例子可以看出，切片的基本语法为 a[begin:end]，它会从 begin 索引开始切，切到 end 索引之前（不包含 end 索引的列表值）。 当 begin 为空，默认为 0，当 end 为空时，默认为列表的长度。所以可以很容易地理解，a[:] 其实相当于把列表复制了一遍。 另外我们还可以给切片设置步长，例如下面这个例子： 123#!/usr/bin/env python3a = [1, 2, 3, 4, 5, 'a', 'b', 'c']print(a[::2]) # [1, 3, 5, 'b'] 连接两个列表python 中连接两个列表非常简单，直接将两个类表相加即可。 1234#!/usr/bin/env python3a = [1, 2, 3]b = ['a', 'b', 'c']print(a+b) # [1, 2, 3, 'a', 'b', 'c'] 列表操作12345678910111213141516171819202122232425262728#!/usr/bin/env python3a = [1, 2, 3]a.append(4) # 往列表末尾添加元素print(a) # [1, 2, 3, 4]a.insert(1, 'a') # 在列表索引位置为 1 的地方插入元素print(a) # [1, 'a', 2, 3, 4]b = a.count('a') # 返回列表中 a 的个数print(b) # 1a.remove('a') # 移除列表中值为 a 的元素print(a) # [1, 2, 3, 4]a.reverse() # 反转列表print(a) # [4, 3, 2, 1]c = [9, 7, 5]a.extend(c) # 将另一个列表的所有元素，添加到末尾print(a) # [4, 3, 2, 1, 9, 7, 5]a.sort() # 对列表进行排序print(a) # [1, 2, 3, 4, 5, 7, 9]del a[1] # 删除索引为 1 的列表元素print(a) # [1, 3, 4, 5, 7, 9] 列表推导式列表推导式为从列表中创建列表提供了简单的方法。列表推导式有点像 JavaScript 中的数组的 map 方法，但是在写多层循环上，列表推导式更加简洁。 123456789101112131415#!/usr/bin/env python2# 不使用列表推导式创建一个列表squares = []for x in range(10): squares.append(x**2)print(squares)# 使用推导式squares2 = [x**2 for x in range(10)]print(squares2) 多层循环下，对比使用推导式和不使用推导式去创建一个列表 123456789101112131415#!/usr/bin/env python2combs = []for x in [1,2,3]: for y in [1,2,3]: if x != y: combs.append((x,y))print(combs) # [(1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2)]combs2 = [(x,y) for x in [1,2,3] for y in [1,2,3] if x != y]print(combs2) # [(1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2)]]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[初探 nginx]]></title>
+    <url>%2Fblog%2F2018%2F07%2F04%2Fnginx%2F</url>
+    <content type="text"><![CDATA[运行环境：CentOS 7 安装 nginx在 CentOS 7 yum 库中是没有 nginx 的，所以执行 sudo yum install nginx 会提示 No package nginx available.。因此首先需要设置一下 yum 仓库。 首先先看一下官网给出的设置提示。 To set up the yum repository for RHEL/CentOS, create the file named /etc/yum.repos.d/nginx.repo with the following contents: 12345[nginx]name=nginx repobaseurl=http://nginx.org/packages/OS/OSRELEASE/$basearch/gpgcheck=0enabled=1 Replace “OS” with “rhel” or “centos”, depending on the distribution used, and “OSRELEASE” with “6” or “7”, for 6.x or 7.x versions, respectively. 因为我使用的环境是 CentOS 7，所以根据官网的设置提示，nginx.repo 文件的内容如下： 12345[nginx]name=nginx repobaseurl=http://nginx.org/packages/centos/7/$basearch/gpgcheck=0enabled=1 当配置好 nginx.repo 文件之后，执行 sudo yum install nginx 即可安装 nginx。 nginx 基本操作 启动：service nginx start 停止：service nginx stop 重载：service nginx reload nginx 默认配置语法nginx 的配置文件是 /etc/nginx/nginx.conf，这个文件会自动包含 /etc/nginx/conf.d/ 文件夹中，所有 server 的配置文件。 其语法如下，其中 server 部分可单独定义在 /etc/nginx/conf.d/ 文件夹中。 1234567891011121314151617181920http &#123; ...... server &#123; listen 80; server_name localhost; location / &#123; root /usr/share/nginx/html; index index.html index.htm; &#125; error_page 500 502 503 504 /50x.html; location = /50x.html &#123; root /usr/share/nginx/html; &#125; &#125; server &#123; ...... &#125; &#125; http 中可以包含多个 server (服务)，一个 server 配置一个站点。 1234server &#123; listen 80; ...&#125; listen 表示的是监听的端口，这里表示监听的是 80 端口。 12345678910server &#123; ... server_name localhost; location / &#123; root /usr/share/nginx/html; index index.html index.htm; &#125; ...&#125; server_name 默认是 localhost，如果有自己的域名，也可以在 server_name 中填写。 server_name 后的 location：/ 表示站点的根目录。root 定义了站点的根目录访问的是 /usr/share/nginx/ 中的 index.html 文件 1234567server &#123; ... error_page 500 502 503 504 /50x.html; location = /50x.html &#123; root /usr/share/nginx/html; &#125;&#125; error_page 定义了当服务器返回 500, 502, 503, 504 时候显示的页面，后面的 location 定义了这个页面的路径在哪里。 nginx 伪静态的实现123456789server &#123; ... location / &#123; ... rewrite ^(.*)\.htmp$ /index.html; ... &#125; ...&#125; 任意 .htmp 的请求，都转发到 index.html 上。 反向代理与负载均衡反向代理： 假设有两台服务器，一台服务器安装了 nginx，另一台服务器放了我们的 web 应用程序。那么我们的请求是先发送到 nignx 这台服务器上面，然后 nginx 作为代理向另外一台服务器请求我们需要的资料，那么这个过程就是一个反向代理的过程。从这个过程可以看出，反向代理可以隐藏我们后端的服务器。 负载均衡： 假设我们的 web 应用访问量比较大，当一台服务器无法承受时，我们会增加多台机器，然后这些机器通过负载均衡的算法同时来接收一个应用的请求。 反向代理和负载均衡结合起来举个例子， A 机器作为 nginx web server，B 和 C 作为 web 应用机器，那么 A 机器会将请求转化到我们的 B 机器或者 C 机器，这就是我们反向代理和负载均衡的原理。 配置假设我们原来 server 的配置文件为： 123456789server &#123; listen 80; server_name localhost; location / &#123; root /usr/share/nginx/html; index index.html index.htm; &#125;&#125; 修改后的 server 配置文件为： 123456789101112131415+ upstream target_hosts &#123;+ server 118.89.106.129:80 weight=1; + server 192.168.31.250:9000 weight=2;+ &#125;server &#123; listen 80; server_name localhost; location / &#123; root /usr/share/nginx/html; index index.html index.htm; + proxy_pass http://target_hosts; &#125;&#125; upstream target_hosts（target_hosts 是一个标识，可以随便起）中定义了当 nginx 接收到请求之后，会将请求转化到哪个服务器。 服务器 ip 地址后面的 weight 代表了权重。weight = 1 代表了权重为 1， wegith = 2 代表了权重为 2，也就是说 nginx 会将接收到的请求，以 1:2 的比例，转发到两台不同的服务器。]]></content>
+      <tags>
+        <tag>nginx</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[JavaScript try-catch 语句]]></title>
+    <url>%2Fblog%2F2018%2F06%2F30%2Fjs-try-catch%2F</url>
+    <content type="text"><![CDATA[基本语法： 1234567try &#123; // 可能会导致错误的代码&#125; catch (error) &#123; // 在错误发生时要执行的代码 // error.message 保存着错误消息 // error.name 保存着错误类型&#125; try 块中的任何代码发生了错误，就会立即退出代码执行过程，然后执行 catch 块。 finally 子句基本语法： 1234567try &#123; // 可能会导致错误的代码&#125; catch (error) &#123; // 发生错误时执行的代码&#125; finally &#123; // 一定会执行的代码&#125; finally 子句在 try-catch 语句中是可选的。 但是只要 finally 子句一经使用，则 finally 块中的代码一定会执行，即便 try 块 和 catch 块中有 return 语句。 错误类型ErrorError 是基类型，其他错误类型都继承自该类型，一般比较少见，主要目的是供开发人员抛出自定义错误。 EvalErrorEvalError 类型的错误，在没有把 eval() 当成函数调用时，就会抛出错误。 在实际开发中，极少会使用 eval()，所以这种错误比较少见。 关于 eval() 相关资料，请参考 https://devdocs.io/javascript/global_objects/eval RangeErrorRangeError 类型的错误，会在数值超出相应范围时触发。 如在定义数组时，指定了数组不支持的项数。 1var items = new Array(-20); ReferenceError在找不到对象的情况下，会发生 ReferenceError 类型的错误。 1var obj = x; // 当 x 未声明的情况下，会抛出 ReferenceError 类型的错误。 SyntaxErrorSyntaxError（语法错误） 一般比较少会出现，因为语法错误会使得 JavaScript 代码立即停止执行。 TypeError执行特定于 类型 的操作时，变量的类型并不符合要求所致。 12const a = ''a = 'Hello World' 当尝试改变常量 a 的值的时候，就会发生 TypeError。 URIError在使用 encodeURI() 或 decodeURI()，而 URI 格式不正确时，就会导致 URIError 错误。这种错误比较少见，因为这两个函数的容错性非常高。 根据错误类型作出恰当处理1234567891011try &#123; // 可能发生错误的代码&#125; catch (error) &#123; if (error instanceof TypeError) &#123; // 处理类型错误的代码 &#125; else if (error instanceof ReferenceError) &#123; // 处理引用错误的代码 &#125; else &#123; // 处理其他类型错误的代码 &#125;&#125; 使用 try-catch 注意点 当 try-catch 语句中发生错误时，浏览器会认为该错误已经被处理了，因此浏览器并不会向用户报告 JavaScript 错误。 使用 try-catch 最适合处理那些我们无法控制的错误。 当清楚知道自己的代码会发生错误时，再使用 try-catch 就不太合适了。]]></content>
+      <tags>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[ES6 类声明与类表达式]]></title>
+    <url>%2Fblog%2F2018%2F06%2F30%2Fjs-class%2F</url>
+    <content type="text"><![CDATA[ES5 中的近类结构ES5 中没有类的概念，最相近的思路是创建一个自定义类型：先创建一个构造函数，然后定义另一个方法并赋值给构造函数的原型。 12345678910111213function PersonType(name) &#123; this.name = name;&#125;PersonType.prototype.sayName = function() &#123; console.log(this.name);&#125;var person = new PersonType("Nicholas");person.sayName(); // "Nicholas"console.log(person instanceof PersonType); // trueconsole.log(person instanceof Object); // true 类声明类声明是基于已有自定义类型声明的语法糖。 1234567891011121314151617181920class PersonClass &#123; // 等价于 PersonType 构造函数 constructor (name) &#123; this.name = name; &#125; // 等价于 PersonType.prototype.sayName sayName () &#123; console.log(this.name); &#125;&#125;let person = new PersonClass("Nicholas");person.sayName();console.log(person instanceof PersonClass); // trueconsole.log(person instanceof Object); // trueconsole.log(typeof PersonClass); // "function"console.log(typeof PersonClass.prototype.sayName); // "function" 从 typeof PersonClass 的返回结果是 &#39;function&#39; 可以看出，PersonClass 声明实际上创建了一个具有构造函数方法行为的函数。 注意： 类声明与 let 声明类型，不能被提升，真正执行声明语句之前，它们会一直存在于临时死区中。 类声明中所有代码将自动运行在严格模式下。 类中所有方法都是不可枚举的。 类中修改类名会报错 使用除关键字 new 以外的方式调用类的构造函数会导致程序抛出错误。 类表达式123456789let PersonClass = class &#123; contructor(name) &#123; this.name = name; &#125; sayName() &#123; console.log(this.name); &#125;&#125; 类表达式不需要标识符在类后，除了语法，类表达式在功能上等价于类声明。在匿名类表达式中，PersonClass.name 是一个空字符串。而在类声明中，PersonClass.name 将会是 PersonClass 字符串。 访问器属性尽管应该在类构造函数中创建自己的属性，但是类也支持直接在原型上定义访问器属性。创建 getter 时，需要在关键字 get 后紧跟一个空格和相应的标识符；创建 setter 时，只需要把关键字 get 替换为 set 即可。 12345678910111213class CustomHTMLElement &#123; constructor(element) &#123; this.element = element; &#125; get html() &#123; return this.elememt.innerHTML; &#125; set html(value) &#123; this.element.innerHTML = valu; &#125;&#125; 可计算成员名称类方法和访问器属性支持使用可计算名称，就像在对象字面量中一样，用方括号包裹一个表达式即可使用可计算名称。 1234567891011let methodName = "sayName";class PersonClass &#123; constructor(name) &#123; this.name = name; &#125; [methodName]() &#123; console.log(this.name); &#125;&#125;; 在访问器属性中应用可计算名称： 123456789101112131415let propertyName = "html";class CustomHTMLElement &#123; constructor(element) &#123; this.element = element; &#125; get [propertyName]() &#123; return this.element.innerHTML; &#125; set [propertyName]() &#123; this.element.innerHTML = value; &#125;&#125; 静态成员在 ES5 中，直接将方法添加到构造函数中来模拟静态成员是一种常见的模式。 123456789101112131415function PersonType(name) &#123; this.name = name;&#125;// 静态方法PersonType.create = function(name) &#123; return new PersonType(name);&#125;;// 实例方法PersonType.prototype.sayName = function() &#123; console.log(this.name);&#125;;var person = PersonType.create("Nicholas"); ES6 类语法简化了创建静态成员的过程，在方法或访问器属性名前使用static 关键字即可，唯一的限制是不能将 static 用于定义构造函数方法。 123456789101112131415161718class PersonClass &#123; // 等价于 PersonType 构造函数 constructor(name) &#123; this.name = name; &#125; // 等价于 PersonType.proptype.sayName sayName() &#123; console.log(this.name); &#125; // 等价于 PersonType.create static create(name) &#123; return new PersonClass(name); &#125;&#125;let person = PersonClass.create("Nicholas");]]></content>
+      <tags>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Python 运算符]]></title>
+    <url>%2Fblog%2F2018%2F06%2F30%2Fpython-operator%2F</url>
+    <content type="text"><![CDATA[基本数学操作符1234567#!/usr/bin/env python3print('2 + 3 = ', 2 + 3) # 加法print('23.0 - 3 = ', 23.0 - 3) # 减法print('2 * 2 = ', 2 * 2) # 乘法print('22 / 12 = ', 22 / 12) # 除法print('14 // 3 = ', 14 // 3) # 整除print('14 % 3 = ', 14 % 3) # 求余 运行结果： 1234562 + 3 = 523.0 - 3 = 20.02 * 2 = 422 / 12 = 1.833333333333333314 // 3 = 414 % 3 = 2 只要有任意一个操作数是浮点数，结果就是浮点数 关系运算符 &lt;：小于 &lt;=：小于等于 &gt;：大于 &gt;=：大于等于 ==：等于 !=：不等于 1234567#!/usr/bin/env python3print('1 &lt; 2', 1 &lt; 2) # 小于print('1 &lt;= 2', 1 &lt;= 2) # 小于等于print('1 &gt; 2', 1 &gt; 2) # 大于print('1 &gt;= 2', 1 &gt;= 2) # 大于等于print('1 == 2', 1 == 2) # 等于print('1 != 2', 1 != 2) # 不等于 运行结果： 1234561 &lt; 2 True1 &lt;= 2 True1 &gt; 2 False1 &gt;= 2 False1 == 2 False1 != 2 True 逻辑运算符1234#!/usr/bin/env python3print('5 and 4:', 5 and 4) # 逻辑“与”print('5 or 4:', 5 or 4) # 逻辑“或”print('not 5 &gt; 4:', not 5 &gt; 4) # 逻辑“非” 运行结果： 1235 and 4: 45 or 4: 5not 5 &gt; 4: False 简写运算符1234#!/usr/bin/env python3a = 12a += 13print('a:', a) 运行结果： 1a: 25 类型转换12345#!/usr/bin/env python3print('float("31.32摄氏度")', float("31摄氏度")) # 字符串转浮点值print('int("31.32摄氏度")', int("31.32摄氏度")) # 字符串转整数值print('str(31)', str(31)) # 整数转字符串print('str(31.32)', str(31.32)) # 浮点值转字符串]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Python 输入输出]]></title>
+    <url>%2Fblog%2F2018%2F06%2F30%2Fpython-input-output%2F</url>
+    <content type="text"><![CDATA[运行环境：Ubuntu 16 终端执行 python3 进入 python 交互模式。 input 读取用户输入input([prompt]) 读取的输入，将转化为字符串输出。 prompt 参数可传可不传。如果传入，则作为提示信息输出。 12345678&gt;&gt;&gt; input()Hello world!&apos;Hello world!&apos;&gt;&gt;&gt;&gt;&gt;&gt; input(&apos;Tell me what is your name? &apos;)Tell me what is your name? allan&gt;&gt;&gt; &apos;allan&apos; print 将内容输出print(*objects, sep=&#39; &#39;, end=&#39;\n&#39;, file=sys.stdout, flush=False) *objects：表示可以一次输出多个对象。输出多个对象时，用 , 分割。 sep：定义用什么来分隔多个对象。 end：定义用什么来结尾。 12&gt;&gt;&gt; print(&apos;a&apos;, &apos;b&apos;, sep=&apos; &amp; &apos;, end=&apos;\n&apos;)a &amp; b]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux 文件上传下载操作]]></title>
+    <url>%2Fblog%2F2018%2F06%2F30%2Fupload-download%2F</url>
+    <content type="text"><![CDATA[wget 命令wget 命令用于在终端中下载网络文件，格式为 wget [参数] 下载地址。 参数： b：后台下载模式。 P：下载到指定目录。 t：最大尝试次数。 c：断点续传。 p：下载页面内所有资源，包括图片、视频等。 r：递归下载。 1wget -t 0 -c https://www.github.com -t 0 表示无限次重试，直到连接成功。 -c 表示断点续传。用户可以在线路中断时从断点开始下载，无需重头开始。 1wget -P a https://www.github.com 将下载的文件存放到 a 这个目录下。 scp 命令scp 就是 secure copy，用于将文件或者目录从一个 Linux 系统复制到另一个 Linux 系统下。scp 传输数据用的是 SSH 协议，保证了数据传输的安全。 格式： 12scp 远程用户名@ip地址:文件的绝对路径 本地 Linux 系统路径scp 本地 Linux 系统文件路径 远程用户名@ip地址:远程系统文件绝对路径名 1scp imooc@192.168.0.106:/tmp/imooc.txt ./ 通过 imooc 这个用户登录到 192.168.0.106 这个服务器，将 /tmp/imooc/imooc.txt 这个文件下载到本机当前目录。 1scp imooc.txt imooc@192.168.0.106:/tmp/ 将 imooc.txt 这个文件，通过 imooc 这个用户登录到 192.168.0.106 这个服务器，上传到 /tmp/ 这个文件夹中。]]></content>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux 系统常用命令]]></title>
+    <url>%2Fblog%2F2018%2F06%2F30%2Flinux-system-command%2F</url>
+    <content type="text"><![CDATA[reboot 重启系统reboot 命令用于重启系统，默认只能管理员来重启。 poweroff 关闭系统poweroff 命令用于关闭系统，默认只有 root 管理员才可以关闭电脑。 top 动态查看进程与系统负载top 命令用于动态监视进程活动与系统负载等信息，可将它看做 Linux 中的 windows 任务管理器。 运行 top 命令可得到下面的结果 第一行：系统时间、运行时间、登录终端数、系统负载（三个值分别为 1 分钟、5 分钟、 15 分钟的平均值，数值越小意味着负载越低） 第二行：进程总数、运行中的进程数、睡眠中的进程数、停止的进程数、僵死的进程数。 第三行：用户占用资源百分比、系统内核占用资源百分比、改变过优先级的进程资源百分比、空闲的资源百分比。（图中的 99.9 id 表示有 99.9% 的 cpu 处理器资源处于空闲。 第四行：物理内存总量、内存空闲量、内存使用量、作为内核缓存的内存量。 第五行：虚拟内存总量、虚拟内存空闲量、虚拟内存使用量、已被提前加载的内存量。 free 查看内存使用量free 用于显示当前系统中内存的使用量信息。free -h 加上 -h 参数，能以更人性化的方式输出当前内存的实时使用量信息。 w 显示登录用户信息w 用于显示登录到系统的用户信息。 第一行：当前的系统时间、系统从启动到现在已经运行的时间、登录到系统中的用户数、系统负载（三个值分别为 1 分钟、5 分钟、 15 分钟的平均值，数值越小意味着负载越低）。 第二行： USER：登录系统的用户。 TTY：用户使用的 TTY 名称。 FROM：用户从哪里登录进来。 LOGIN@：用户登录的日期和时间。 IDLE：某个程序上次从终端开始执行到现在所持续的时间。 JCPU：表示该终端上的所有进程及子进程使用系统的总时间。 PCPU：当前活动进程使用的系统时间。 WHAT：当前用户执行的进程名称和选项。 df 查看磁盘信息df 命令用来检查 Linux 系统的磁盘空间占用情况。 运行 df -h 可得到下面的结果： 查看 CPU 信息1cat /proc/cpuinfo # 查看 cpu 的所有信息]]></content>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux 查看 ip 和打开网络]]></title>
+    <url>%2Fblog%2F2018%2F06%2F30%2Flinux-ip%2F</url>
+    <content type="text"><![CDATA[运行环境 CentOS7 使用 ip addr最小化安装的 CentOS 最开始是无法通过 ifconfig 查看 ip 地址的，可以先通过 ip addr 进行查看。 打开网络执行 vi /etc/sysconfig/network-scripts/ifcfg-xx，xx 替换成通过 ip addr 查询结果中的网卡。 如要编辑 enp4s0 的网卡配置，则执行 vi /etc/sysconfig/network-scripts/ifcfg-enp4s0 。 进入到编辑页面，将 ONBOOT 的值改为 yes，保存退出。执行 service network restart 重启网络服务。 重启完网络服务之后，再执行 ip addr 即可看到刚刚修改的配置文件所对应的网卡，显示了内网 ip，并且可以上网了。。 使用 ifconfig要使用 ifconfig 命令，需执行 yum install net-tools 进行安装。]]></content>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[SSH 免密登陆：ssh key]]></title>
+    <url>%2Fblog%2F2018%2F06%2F30%2Fssh-login%2F</url>
+    <content type="text"><![CDATA[环境： 客户端：Ubuntu 18.04 服务器端：CentOS 7 客户端生成 ssh key在 ~/.ssh 路径下，运行下面的其中一条命令，可生成一对公钥和私钥 123ssh-keygenssh-keygen -t rsassh-keygen -t dsa rsa 和 dsa 分别代表不同的加密方式。 服务器端 authorized_keys 文件如果想要实现 SSH 免密登陆，还需要将客户端生成的公钥，粘贴到服务器端 ~/.ssh/authorized_keys 文件中 随后，执行 ssh-add ~/.ssh/xxx，将客户端私钥加载到 ssh 服务中，xxx 替换为具体的私钥文件名 使用 SSH configssh config 能让我们批量管理多个 ssh，通过别名登陆远程服务器。 config 文件存放在 ~/.ssh/config。 config 语法关键字 Host：主机别名 HostName：主机名 Port：端口号（默认端口为 22） User：用户名 IdentityFile：密钥文件的路径 新建 config 文件1234host: testhost HostName: 192.168.30.250 Port: 22 User: root 当配置文件编辑完毕之后，如果已经设置好 SSH 免密登陆，那么此时运行 ssh testhost 即可登陆远程的服务器。]]></content>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Markdown语法-链接]]></title>
+    <url>%2Fblog%2F2018%2F06%2F30%2Fmarkdown-link%2F</url>
+    <content type="text"><![CDATA[Markdown 链接语法有 行内式 与 参考式 这两种。 行内式行内式语法，为方括号 [] 后紧跟圆括号 ()。其中方括号中为 链接显示文字，圆括号中为 链接地址。 代码： 1[google](https://www.google.com/) 效果： google 链接除了指向网址外，还可以指向本地文件，代码如下： 代码： 1[webpack](./webpack.png) 在实际使用中，当点击了这个链接的时候，会直接转跳显示本地图片。 参考式参考式相当于将行内式拆分成两部分。类似于把链接存放在一个变量中，然后在后文中重复使用。 代码： 1234[link]: https://www.google.com/[google][link][google webside][link] 效果： google google webside 点击上面两个链接，都会打开 google 搜索页面。]]></content>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[运行多个 npm script]]></title>
+    <url>%2Fblog%2F2018%2F05%2F13%2Fnpm-script%2F</url>
+    <content type="text"><![CDATA[多个 npm script 串行用 &amp;&amp; 符号将多个 npm script 串起来即可 1234567"scripts": &#123; "lint:js": "eslint *.js", "lint:css": "stylelint *.less", "lint:json": "jsonlint --quiet *.json", "lint:markdown": "markdownlint --config .markdownlint.json *.md", "test": "npm run lint:js &amp;&amp; npm run lint:css &amp;&amp; npm run lint:json &amp;&amp; npm run lint:markdown &amp;&amp; mocha tests/"&#125; 串行执行的时候，如果前序命令失败，后续全部命令都会终止。 多个 npm script 并行npm script 的并行，就是将串行的 &amp;&amp; 符号改为 &amp; 即可。 多个 npm script 并行运行的时候，可能会出现进程结束之后，结果才会输出的情况 npm-run-all（推荐）npm-run-all 实现更轻量和简洁的多命令运行。 npm-run-all 的串行运行如下： 12345"scripts": &#123; ... "test": "npm-run-all lint:js lint:css lint:json lint:markdown mocha" ...&#125; 可使用通配符进一步简化： 12345"scripts": &#123; ... "test": "npm-run-all lint:* mocha" ...&#125; 并行运行： 12345"scripts": &#123; ... "test": "npm-run-all --parallel lint:* mocha" ...&#125;]]></content>
+      <tags>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CentOS7 安装 Mariadb]]></title>
+    <url>%2Fblog%2F2018%2F05%2F06%2Fmariadb%2F</url>
+    <content type="text"><![CDATA[参考文章How to Install and Secure MariaDB 10 in CentOS 7 如何在CentOS 7上安装和安全配置 MariaDB 10 安装 Mariadb1yum -y install mariadb-server mariadb 启动数据库服务守护进程MariaDB 包安装完毕后，立即启动数据库服务守护进程，并可以通过下面的操作设置，在操作系统重启后自动启动服务。 123systemctl start mariadbsystemctl enable mariadbsystemctl status mariadb 对 Mariadb 进行安装配置1sudo mysql_secure_installation]]></content>
+      <tags>
+        <tag>mariadb</tag>
+        <tag>centos</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[通过源码安装 node]]></title>
+    <url>%2Fblog%2F2018%2F04%2F29%2Fnode-sourcecode-install%2F</url>
+    <content type="text"><![CDATA[node 源码获取首先先获取源码的链接 可以通过 node官网，或者 淘宝NPM获取。 下面通过源码链接来获取 node 10.0.0 的源码压缩文件。 1wget https://npm.taobao.org/mirrors/node/latest/node-v10.0.0.tar.gz node 编译安装通过源码链接获取的源码是一个压缩文件，此时需要运行下面命令来解压获取源码文件。 1tar zxvf node-v10.0.0.tar.gz 解压完毕之后，会在当前文件夹中出现一个 node-v10.0.0 的文件夹，进入这个文件夹之后，在命令行中输入 make 进行编译，待编译完成之后，在命令行中输入 sudo make install 进行安装。 node 卸载如果想卸载 node 的话，则可以进入 node 源码的解压文件，输入 sudo make uninstall 即可。]]></content>
+      <tags>
+        <tag>node</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[nodejs 版本号说明]]></title>
+    <url>%2Fblog%2F2018%2F03%2F13%2Fversion-number%2F</url>
+    <content type="text"><![CDATA[版本号格式最常见的版本号是 x.y.z 格式，如 4.3.31。 升级规则 z 位在修复 bug 的时候升级。 y 位在有新增的功能，并且保证兼容以前的版本的时候升级。 x 位在大版本升级，而且不保证兼容的时候升级 常见的版本号类型 1.* 这种情况下安装包的版本保证 x 位，y 位不变，但是 z 位会保持最新的。 ~1.2.0 与 1.2.* 的含义是一样的。 2.x 这个情况下安装包的版本保证 z 位不变，y 位与 x 位都使用最新的。 ^2.0.0 与 2.x 的含义是一样的。]]></content>
+      <tags>
+        <tag>node</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[VS code 插件]]></title>
+    <url>%2Fblog%2F2018%2F02%2F20%2Fvs-code-plug-in%2F</url>
+    <content type="text"><![CDATA[常用插件 vscode-icons：资源树目录图标 vsCode Great Icons ESLint：代码规范检测工具 Auto Close Tag Auto Rename Tag EditorConfig for VS Code react 插件 react-beautify MarkDown 插件 Markdown TOC：标题生成 Markdown Preview Github Styling Auto-Open Markdown Preview：Markdown Preview自动预览 markdownlint writing4cn：markdown格式化]]></content>
+      <tags>
+        <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[chocolatey 常用命令]]></title>
+    <url>%2Fblog%2F2018%2F02%2F20%2Fchocolatey%2F</url>
+    <content type="text"><![CDATA[ChocolateyInstall ChocolateyInstall with cmd.exe1@&quot;%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe&quot; -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command &quot;iex ((New-Object System.Net.WebClient).DownloadString(&apos;https://chocolatey.org/install.ps1&apos;))&quot; &amp;&amp; SET &quot;PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&quot; Install with PowerShell.exe1Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString(&apos;https://chocolatey.org/install.ps1&apos;)) List Commandchoco list --local-only 查看本地安装的软件 choco list node 搜索node相关的packages Install Commandchoco install notepadplusplus googlechrome atom 7zip Outdated CommandReturns a list of outdated packages. choco outdated Upgrade Commandchoco upgrade chocolatey Uninstall Commandchoco uninstall pkg 设置代理choco config set --name proxy --value &#39;127.0.0.1&#39;]]></content>
+      <tags>
+        <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Atom 插件]]></title>
+    <url>%2Fblog%2F2018%2F02%2F20%2Fatom-plug-in%2F</url>
+    <content type="text"><![CDATA[通用类插件 emmet：代码快速输入 file-icons：文件图标 highlight-line：高亮行 highlight-selected：高亮与选择相同的内容 docblockr：快速生成注释 minimap minimap-hightlight-selected minimap-linter editorconfig autoclose-tags 前端类插件 atom-beautify：代码的美化 atom-ternjs：js语法支持 linter-eslint language-babel react-es6-snippets react-native-snippets react-snippets 终端插件 platformio-ide-terminal：atom中使用终端 MarkDown类插件 markdown-preview-enhanced tidy-markdown markdown-toc-auto markdown-scroll-sync]]></content>
+      <tags>
+        <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[ssh]]></title>
+    <url>%2Fblog%2F2018%2F02%2F20%2Fssh%2F</url>
+    <content type="text"><![CDATA[SSH工具服务器端安装SSH工具 服务器安装SSH服务：yum install openssh-server 启动SSH：service sshd start 设置开机运行：chkconfig sshd on 由于CentOS是服务器版本的linux，所以是默认安装SSH工具的。 客户端安装SSH工具window平台：Xshell，Putty，secureCRT linux平台(CentOS平台)：yum install openssh-clients SSH客户端连接SSH服务Linux平台： ssh root@192.168.0.105 ，其中root为帐号，后面的192.168.0.105为ip地址 SSH config 讲解config 存放在 ~/.ssh/config，.ssh这个文件夹默认是没有的，需要自己创建 SSH config 语法关键字Host：别名HostName：主机名Port：端口（SSH服务的默认端口为232端口）User：用户名IdentityFile：密钥文件的路径 config文件一般如下1234Host luo HostName 192.168.2.103 User root Port 22 SSH免密登陆 ssh key 使用非对称加密方式生成公钥和私钥 私钥存放在本地 ~/.ssh目录 公钥可以对外公开，放在服务器的 ~/.ssh/authorized_keys windows平台生成 ssh key XSheel软件，“工具” —— “用户密钥管理者” —— “生成” （用户密钥加密的密码可以选择为空） 然后将公钥复制到服务器 ~/.ssh/authorized_keys 这个文件中 Linux平台生成 ssh key ssh-keygen -t rsa 或 ssh-keygen -t dsa 将后缀为 .pub 文件中的公钥复制到服务器 ~/.ssh/authorized_keys 这个文件中 将私钥密钥加载到Linux（不是服务器） ssh 服务中，ssh-add ~/.ssh/luo，luo是私钥文件的文件名，请按照实际的私钥文件名进行替换。 SSH安全端口端口安全指的是尽量避免服务器的远程连接端口被不法分子知道，为此而改变默认服务端口号的操作 改变SSH服务端口修改 /etc/ssh/sshd_config 配置，然后输入命令 service sshd restart]]></content>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[nodejs path 常用API]]></title>
+    <url>%2Fblog%2F2018%2F02%2F18%2Fpath%2F</url>
+    <content type="text"><![CDATA[pathpath 模块的使用1const path = require('path'); path.normalizepath.normalize 用于使路径规范化。 当发现多个连续的路径分隔符时，他们会被单个路径分隔符所替换（在 POSIX 上用/替换，在 Windows 上用 \替换） 在 POSIX 上的例子： 12path.normalize('/foo/bar//baz/asdf/quux/..');// Returns: '/foo/bar/baz/asdf' 在 windows 上的例子： 12path.normalize('C:\\temp\\\\foo\\bar\\..\\');// Returns: 'C:\\temp\\foo\\' 在 windows 上如果有多种路径分隔符，将会被自动替换为 \ 分隔符。 12path.win32.normalize('C:////temp\\\\/\\/\\/foo/bar');// Returns: 'C:\\temp\\foo\\bar' path.join([…paths])path.join 用于将 path 片段连接起来，并生成规范化的路径 12345path.join('/foo', 'bar', 'baz/asdf', 'quux', '..');// Returns: '/foo/bar/baz/asdf'path.join('foo', &#123;&#125;, 'bar');// throws 'TypeError: Path must be a string. Received &#123;&#125;' path.resolve([…paths])path.resolve 用于将一系列路径或路径片段解析为一个绝对路径 如果处理完所有给定的路径之后，绝对路径还没生成，则当前的工作目录将会被用上。 123456789path.resolve('/foo/bar', './baz');// 返回: '/foo/bar/baz'path.resolve('/foo/bar', '/tmp/file/');// 返回: '/tmp/file'path.resolve('wwwroot', 'static_files/png/', '../gif/image.gif');// 如果当前工作目录为 /home/myself/node，// 则返回 '/home/myself/node/wwwroot/static_files/gif/image.gif' path.basename(path[, ext])path.basename 用于返回路径的最后一部分, 所定义的尾部分隔符将被忽略（请看第二个例子）。 12345path.basename('/foo/bar/baz/asdf/quux.html');// Returns: 'quux.html'path.basename('/foo/bar/baz/asdf/quux.html', '.html');// Returns: 'quux' path.extname(path)path.extname 用于返回路径扩展名。返回从最后一次出现 . 到最后的字符串。如果路径中没有 . 或者路径开头是 .，则会返回一个空字符串 1234567891011121314path.extname('index.html');// Returns: '.html'path.extname('index.coffee.md');// Returns: '.md'path.extname('index.');// Returns: '.'path.extname('index');// Returns: ''path.extname('.index');// Returns: '' path.dirname(path)path.dirname 用于返回路径的目录 12path.dirname('/foo/bar/baz/asdf/quux');// Returns: '/foo/bar/baz/asdf' path.parse(path)path.parse 会解析所传入的路径，并返回一个含有与路径相关信息的对象。 返回的对象含有以下属性： dir：路径目录 root：路径根目录 base：路径basename ext：扩展名 name：文件名 POSIX 例子： 1234567path.parse('/home/user/dir/file.txt');// Returns:// &#123; root: '/',// dir: '/home/user/dir',// base: 'file.txt',// ext: '.txt',// name: 'file' &#125; Windows 例子： 1234567path.parse('C:\\path\\dir\\file.txt');// Returns:// &#123; root: 'C:\\',// dir: 'C:\\path\\dir',// base: 'file.txt',// ext: '.txt',// name: 'file' &#125; path.format(pathObject)path.format 跟 path.parse 的作用相反。传入一个含有路径相关属性的对象， path.format 将返回一个路径。 pathObject 有以下属性 dir：文件夹目录路径 root：根目录 base：basename name：文件名 ext：扩展名 当 pathObject.root 与 pathObject.dir 同时存在的时候，以 pathObject.dir 为准。 当 pathObject.ext 、 pathObject.name 、 pathObject.base 同时存在的时候，以 pathObject.base 为准。 123456789101112131415161718192021222324252627// If `dir`, `root` and `base` are provided,// `$&#123;dir&#125;$&#123;path.sep&#125;$&#123;base&#125;`// will be returned. `root` is ignored.path.format(&#123; root: '/ignored', dir: '/home/user/dir', base: 'file.txt'&#125;);// Returns: '/home/user/dir/file.txt'// `root` will be used if `dir` is not specified.// If only `root` is provided or `dir` is equal to `root` then the// platform separator will not be included. `ext` will be ignored.path.format(&#123; root: '/', base: 'file.txt', ext: 'ignored'&#125;);// Returns: '/file.txt'// `name` + `ext` will be used if `base` is not specified.path.format(&#123; root: '/', name: 'file', ext: '.txt'&#125;);// Returns: '/file.txt' 跟路径相关的一些参数__dirname, __filename 总是返回文件的绝对路径。 process.cwd() 总是返回执行 node 命令所在文件夹 ./ 在 require 方法中总是相对当前文件所在文件夹，在其它地方和 process.cwd() 一样， 相对 node 启动文件夹]]></content>
+      <tags>
+        <tag>node</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[nodejs 中的 global 变量]]></title>
+    <url>%2Fblog%2F2018%2F02%2F17%2Fglobal%2F</url>
+    <content type="text"><![CDATA[globalglobal 变量中是默认带着一些常用的属性和方法的。 常用的属性和方法如下： CommonJS Buffer、process、console timer 在模块中往global添加变量的话，这个变量会变成全局变量 123456789101112131415// a.jsconst testVar = 1000;global.testVar2 = 200;module.exports.testVar = testVar;// b.jsconst modA = require('./a.js');console.log(modA.testVar) // 1000console.log(testVar2) // 200console.log(testVar) // undifined，报错 processprocess 参数相关的常用 APIprocess.argvprocess.argv 返回的是一个数组。 第一个元素是启动 node.js 进程可执行文件的绝对路径名。 第二个元素是 js 文件执行的路径 剩余的元素则是命令附加的参数 For example, assuming the following script for process-args.js: 123process.argv.forEach((val, index) =&gt; &#123; console.log(`$&#123;index&#125;: $&#123;val&#125;`);&#125;) Launching the Node.js process as: 1$ node process-args.js one two=three four Would generate the output: 123450: /usr/local/bin/node1: /Users/mjr/work/node/process-args.js2: one3: two=three4: four process.execArgvprocess.excArgv 会返回执行命令行时所传入的特定选项数组。这些特定的选项并不会出现在 process.argv 所返回的数组中，也不包括 node.js 可执行文件，脚本名称或脚本名称后面的任何选项。 For example: 1$ node --harmony script.js --version Results in process.execArgv: 1[&apos;--harmony&apos;] And process.argv: 1[&apos;/usr/local/bin/node&apos;, &apos;script.js&apos;, &apos;--version&apos;] process.execPathprocess.execPath 返回启动 node.js 进程的可执行文件的绝对路径 For example: 1&apos;/usr/local/bin/node&apos; process.envThe process.env property returns an object containing the user environment. An example of this object looks like: 123456789101112&#123; TERM: &apos;xterm-256color&apos;, SHELL: &apos;/usr/local/bin/bash&apos;, USER: &apos;maciej&apos;, PATH: &apos;~/.bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin&apos;, PWD: &apos;/Users/maciej&apos;, EDITOR: &apos;vim&apos;, SHLVL: &apos;1&apos;, HOME: &apos;/Users/maciej&apos;, LOGNAME: &apos;maciej&apos;, _: &apos;/usr/local/bin/node&apos;&#125; process.cwd()The process.cwd() method returns the current working directory of the Node.js process.]]></content>
+      <tags>
+        <tag>node</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[commonjs]]></title>
+    <url>%2Fblog%2F2018%2F02%2F16%2Fcommonjs%2F</url>
+    <content type="text"><![CDATA[commonjscommonjs 是 nodejs 模块管理的规范 先来看一个 nodejs 运行代码的例子 1console.log('This is a test'); 调试运行的结果如下123(function(exports, require, module, __filename, __dirname) &#123; console.log('This is a test');&#125;); 包裹所写的代码的匿名函数，是 nodejs 自动帮我们做的。 exports 代表模块的输出 require 代表需要依赖别的模块所需要的 function 在模块内部 module 变量代表模块本身 module 变量里面有一个 exports 属性代表模块对外的接口，但 module.exports 跟 exports 是有区别的 __filename 指的是这个文件的路径 __dirname 指的是这个文件的所在文件夹的路径 commonjs 规范的规定 每个文件都是一个模块，都有自己的作用域 在模块内部 module 变量代表模块本身 module.exports 属性代表模块对外接口 require 规则require 规则用于加载其他模块 /表示绝对路径，./表示相对于当前文件的路径 支持 js、json、node 扩展名，不写依次尝试 不写路径则认为是 build-in 模块或者各级 node_modules 内的第三方模块 require 的特性 module 被加载时执行，加载后缓存，也就是说 module 不会重复加载 12345678910// a.jsconsole.log('This is module A');const aVar = 'a';const aFun = function () &#123;console.log(aVar);&#125;;module.exports.aVar = aVar;module.exports.aFun = aFun; 123456// b.jsconst fileA = require('./a.js');console.log(fileA.aVar);fileA.aFun(); 运行 b.js 的结果 123This is module Aaa 当 b.js 包含了 a.js ，所以在运行 b.js 的时候，会将 a.js 中的代码都执行一遍。 一旦出现某个模块被循环加载，就只输出已经执行的部分，还未执行的部分不会输出。 12345678// a.jsmodule.exports.aVar = 'A';const modB = require('./b');console.log('inside module A, modB.bVar:', modB.bVar);module.exports.aVar = 'AA'; 12345678// b.js module.exports.bVar = 'B';const modA = require('./a');console.log('inside module B, modA.aVar:', modA.aVar);module.exports.bVar = 'BB'; 1234// main.jsconst modA = require('./a');const modB = require('./b'); 运行 main.js 所得到的结果如下： 12inside module B, modA.aVar: Ainside module A, modB.bVar: BB 代码执行的步骤： main.js require a 模块，则会执行 a 模块中的代码。 a 模块中 require b 模块，执行 b.js，此时 aVar 变量的值为 A。 执行 b.js ，b.js 中同样依赖了 a.js ，但是 require 有加载后缓存的特性，不会重复加载。也就是说，b.js 中 console 出 aVar 的值为 a.js 中已加载部分的 aVar 的值 A ，而不是未加载部分 aVar 的值 AA。 b.js 执行完毕之后，继续执行 a.js ，此时 bVar 的值为 BB，因此，a.js 中 console bVar 的值为 BB。当 a.js 执行完毕之后，aVar 的值为 AA。 main.js 再 require b 模块，此时，因为 b 模块已经加载过了，所以不会重复加载。因此，b 模块不会重复执行。 exports 与 module.exports 的关系在 commonjs 中，模块的对外输出永远是 module.exports，而 exports 则是 module.exports 的引用。我们可以将 exports 理解为 module.exports 的快捷方式。 const exports = module.exports，这句代码可以让我们更清楚 module.exports 与 exports 的关系。 因为 exports 是 module.exports 的引用，所以在使用 exports 的时候要注意不能改变 exports 的引用。 123456789// rightexports.variableA = 'a'// error exports = &#123; variableA: 'a'&#125;]]></content>
+      <tags>
+        <tag>node</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[vim操作速查]]></title>
+    <url>%2Fblog%2F2018%2F02%2F10%2Fvim%E6%93%8D%E4%BD%9C%E9%80%9F%E6%9F%A5%2F</url>
+    <content type="text"><![CDATA[普通模式光标的移动与转跳 上下左右： h：左移 l：右移 j：下移 k：上移 单词操作： w：下一个单词的开头 e：当前单词的结尾 b：前一个单词的开头 ge：前一个单词的结尾 行操作： 0或^：当前行的行头 $：当前行的行尾 nG：移动到第n行 gg：移动到第一行 G：移动到最后一行 查找操作： f&lt;字母&gt;：向后搜索&lt;字母&gt;并转跳到第一个匹配的位置 F&lt;字母&gt;：向前搜索&lt;字母&gt;并转跳到第一个匹配的位置 删除文本 字符操作： x：删除游标所在的字符 X（同Delete）：删除游标所在前一个字符 单词操作： dw：删除一个单词 行操作： dd：删除整行 d^：删除至行首 d$ 或 D：删除至行尾 文档操作： dG：删除到文档结尾处 d1G：删除至文档首部 重复命令 .(小数点)：重复上一次的命令操作 n &lt;命令&gt;：执行n次命令 复制、剪切、粘贴 复制： 单词操作： yw：复制一个单词 y2w：复制两个单词 行操作： yy：复制游标所在的整行 y^：复制至行首 y$：复制至行尾 文本操作： yG：复制至文本末 y1G：复制至文本开头 剪切： dd：删除命令 粘贴： p（小写）：粘贴至光标后 P（大写）：粘贴至光标前 替换与撤销 字符操作： r+&lt;待替换字母&gt;：将游标所在字母替换为制定字母 R：连续替换，直到按下Esc键 ~：反转游标所在字母大小写 单词操作： cw：替换一个单词，即删除一个单词，并进入插入模式 行操作： cc：替换整行，即删除游标所在行，并进入插入模式 C（大写）：替换游标以后至行末 撤销： u{n}：撤销一次或n次操作 Ctrl+r：redo，即侧小undo的操作 快速缩进 &gt;&gt;：整行向右缩进 &lt;&lt;：整行向左回退 查找 /：向下查找字符串 ?：向上查找字符串 继续查找： n：继续查找 N：反向查找 退出vim Shift+zz：保存退出k 多文件编辑 vim 1.txt 2.txt：同时创建 1.txt，2.txt 这两个文件并且进行编辑。 命令行模式 :n：编辑 2.txt :N：编辑 1.txt :e 3.txt：打开新文件 3.txt :ls：列出以前编辑过的文件 :b 2.txt：直接进入文件 2.txt 编辑 :bd 2.txt：删除以前编辑过的列表中的文件项目 :e! 4.txt：新打开文件 4.txt，放弃正在编辑的文件 :f：显示正在编辑的文件名 :f new.txt：改变正在编辑的文件名为 new.txt 插入模式 进入插入模式： i：在当前光标处进行编辑 I：在行首插入 a：在光标后插入编辑 A：在行末插入 o：在当前行后插入一个新行 O：在当前行前插入一个新行 cw：替换从光标所在位置后到一个单词结尾的字符 返回普通模式： ESC 可视模式 字符选择模式： 普通模式下输入 v ，进入字符选择模式，移动光标，光标走过的地方就会选取。再次按下 v 后会取消选取。 行选择模式： 普通模式下输入 Shift+v，按下 Shift+v 之后，会整行选取，移动光标可以选择更多的行。再次按下 Shift+v 后会取消选取。 区域选择模式： 普通模式下输入 Ctrl+v 删除选取区域内容： 输入 d 复制选取区域内容： 输入 y 视窗操作 命令行模式下： :new：打开一个新的 vim 视窗，并进入视窗编辑一个新文件 :sp 1.txt：打开新的垂直分屏视窗来编辑 1.txt :vsp 2.txt：打开新的垂直分屏视窗来编辑 2.txt 普通模式下： Ctrl+w s：将当前窗口分割成两个水平的窗口 Ctrl+w v：将当前窗口分割成两个垂直的窗口 Ctrl+w q：即 :q 结束分割出来的视窗。如果在新视窗中有输入，需要使用强制符！即 :q! Ctrl+w o：打开一个视窗并隐藏之前的所有视窗 Ctrl+w j：移至下面视窗 Ctrl+w k：移至上面视窗 Ctrl+w h：移至左边视窗 Ctrl+w l：移至右边视窗 Ctrl+w J：将当前视窗移至下面 Ctrl+w K：将当前视窗移至上面 Ctrl+w H：将当前视窗移至左边 Ctrl+w L：将当前视窗移至右边 Ctrl+w -：减小视窗的高度 Ctrl+w +：增加窗口的高度 文档加密vim -x file1，加密文档的时候，会要求输入两次密码，两次密码需要保持一致，下一次用 vim 打开的时候，就会要求输入密码。 在vim执行外部命令在命令行模式中输入!可以执行外部的shell命令 :!ls：用于显示当前目录的内容 :!rm：FILENAME用于删除名为 FILENAME 的文件 :w FILENAME：可将当前 VIM 中正在编辑的文件另存为 FILENAME 文件 帮助系统vim中的查看帮助 普通模式下： 按 F1 打开 vim 自己预设的帮助文档 命令行模式下 :h shiftwidth： 打开名为shiftwidth的帮助文件 ver：显示版本及参数 功能设定vim的功能设定可以在编辑文件的时候进行功能设定，如命令行模式下输入:set nu（显示行数），设定值退出vim后不会保存。要永久保存配置需要修改vim配置文件。 vim的配置文件~/.vimrc，可以打开文件进行修改，不过务必小心不要影响vim正常使用 获取目前的设定 命令行模式： :set (:se)：显示所有修改过的配置 :set all：显示所有的设定值 :set option?：显示option的设定值 :set nooption：取消当前设定值 set功能的说明 命令行模式： :set autoindent(ai)：设置自动缩进 :set autowrite(aw)：设置自动存档，默认未打开 :set background=dark或light：设置背景风格 :set backup(bk)：设置自动备份，默认未打开 :set cindent(cin)：设置C语言风格缩进]]></content>
+      <tags>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[数据库基础命令快速查询]]></title>
+    <url>%2Fblog%2F2018%2F01%2F30%2F%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4%E5%BF%AB%E9%80%9F%E6%9F%A5%E8%AF%A2%2F</url>
+    <content type="text"><![CDATA[实验楼 MySQL 基础笔记 本文假设在 Linux 环境下， MySQL简单操作MySQL服务打开 MySQL 服务： 1sudo service mysql start 如果没有安装MySQL的话，会有下面的提示： 1mysql: unrecognized service` 打开 MySQL1mysql -u root -p 新建数据库1CREATE DATABASE database_name; 显示数据库1SHOW DATABASE; 连接数据库1USE database_name 数据类型 INT FLOAT DOUBLE ENUM SET DATA TIME YEAR CHAR VARCHAR TEXT ENUM和SET的区别: ENUM 类型的数据的值，必须是定义时枚举的值的其中之一，即单选，而 SET 类型的值则可以多选 12345CREATE TABLE table_name( id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY, name VARCHAR(20) UNIQUE KEY NOT NULL, sex ENUM('Male', 'Female', 'Unknow') DEFAULT 'Unknow');) 插入数据1INSERT INTO table_name(column_name_a, column_name_b, column_name_c) VALUES(value1, value2, value3); SQL的约束主键1234CREATE TABLE employee ( id INT(10) PRIMARY KEY, name CHAR(20),); 12345CREATE TABLE employee ( id INT(10), name CHAR(20), CONTRAINT emp_pk PRIMARY KEY (id)); 复合主键 12345CREATE TABLE employee ( id INT(10), name CHAR(20), CONTRAINT emp_pk PRIMARY KEY (id,name)); 默认值12345CREATE TABLE employee ( id INT(10), name CHAR(20), age INT(10) DEFAULT '10',); 唯一约束12345CREATE TABLE employee ( id INT(10), name CHAR(20), UNIQUE (name),); 外键约束12345CREATE TABLE employee ( id INT(10), in_dpt CHAR(20), CONSTRAINT emp_fk FOREIGN_KEY(in_dpt) REFERENCES department(dpt_name)) 非空约束123CREATE TABLE employee ( id INT (10) NOT NULL,) SELECT语句123456789SELECT name,age FROM employee;SELECT name,age FROM employee age&gt;25;SELECT name,age FROM employee WHERE name='Mary';SELECT name,age FROM employee WHERE age&lt;25 OR age&gt;30;SELECT name,age FROM employee WHERE age&gt;25 AND age&lt;30;SELECT name,age FROM employee WHERE age BETWEEN 25 AND 30; IN 和 NOT IN1SELECT name,age FROM employee WHERE in_dpt IN ('dpt3', 'dpt4'); 通配符_ 代表一个未指定字符，% 代表不定个未指定字符。 1SELECT name,age FROM employee WHERE phone LIKE '1101__'; 1SELECT name,age,phone FROM employee WHERE name LIKE 'j%'; 排序ASC：升序，DESC：降序 1SELECT name,age FROM employee ORDER BY salary DESC; SQL 内置函数和计算 COUNT：计数 SUM：求和 AVG：求平均值 MAX：最大值 MIN：最小值 1SELECT MAX(salary) AS max_salary,MIN(salary) FROM employee; 子查询123SELECT of_dpt,COUNT(proj_name) AS count_projectFROM projectWHERE of_dpt IN (SELECT in_dpt FROM employee WHERE name='Tom') 连接查询1234SELECT id,name,people_numFROM employee,departmentWHERE employee.in_dpt = department.dpt_nameORDER BY id; 1234SELECT id,name,people_numFROM employee JOIN departmentON employee.in_dpt = department.dpt_nameORDER BY id; 修改与删除删除数据库1DROP DATABASE database_name 重命名一张表12345RENAME TABLE old_table_name TO new_table_nameALTER TABLE old_table_name TO new_table_nameALTER TABLE old_table_name RENAME TO new_table_name 删除表1DROP TABLE table_name 对表中列的修改增加一列12ALTER TABLE table_name ADD COLUMN column_name column_definitionALTER TABLE table_name ADD column_name column_definition 将新增列放在某一列的后面 1ALTER TABLE table_name ADD column_name column_definition AFTER existing_column; 将新添加的列，添加到表第一列的位置1ALTER TABLE table_name ADD colum _name column_definition FIRST 删除一列123ALTER TABLE table_name DROP COLUMN column_nameALTER TABLE table_name DROP column_name 重命名一列1ALTER TABLE table_name CHANGE old_column_name new_column_name column_definition 改变数据类型1ALTER TABLE table_name MODIFY column_name new_column_definition 对表的内容修改修改表中某个值1UPDATE table_name SET column1=value1, column2=value2 WHERE condition 删除一行记录1DELETE FROM table_name WHERE condition 其他基本操作索引对一张表中的某个列建立索引 1ALTER TABLE table_name ADD INDEX 索引名 (column_name) 视图视图是一种虚拟存在的表，数据库中只存放了视图的定义，而没有存放视图中的数据，这些数据存放在原来的表中。 1CREATE VIEW view_name (column_a, column_b, column_c) AS SELECT column1, column2, column3 FROM table_name 导入导入，是将一个文件里的数据保存进一张表中。 1LOAD DATA INFILE '文件路径和文件名' INTO TABLE table_name 1LOAD DATA INFILE &apos;/tmp/SQL6/in.text&apos; INTO TABLE employee; 导出导出是把数据库某个表中的数据保存到一个文件之中。 1SELECT column1, column2 INTO OUTFILE '文件路径和文件夹' FROM 表名字; 1SELECT * INTO OUTFILE '/tmp/out.txt' FROM employee; 备份备份命令会生成一个SQL脚本文件，其中包含从头重新创建数据库所必须的命令CREATE TABLE INSERT等。 12mysqldump -u root 数据库名&gt;备份文件名; #备份整个数据库mysqldump -u root 数据库名 表名&gt;备份文件名; #备份文件名; 1mysqldump -u root mysql_shiyan &gt; bak.sql; 恢复1source /tmp/SQL6/MySQL-06.sql 另外一种是往一个特定的数据库里面恢复数据 1source -u root test &lt; bak.sql]]></content>
+      <tags>
+        <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo免密部署到GithubPages]]></title>
+    <url>%2Fblog%2F2018%2F01%2F28%2Fhexo-deploy-use-ssh%2F</url>
+    <content type="text"><![CDATA[本文假设已经安装好了 node，git，hexo。 新建GithubPages 登陆 Github 之后，点击 New repository，转跳到创建新仓库的页面 在创建仓库的页面中，填写新仓库的名字，新仓库的命名规则为 username.github.io，如你的 username （用户名） 为 luohuidong，则这个仓库的命名就应该为 luohuidong.github.io 创建完仓库之后，请记下 SSH URLs，这个后面在修改 hexo _config.yml 文件配置的时候要用到。 _config.yml文件配置将 Hexo 部署到 Github Pages 之前，需要对 _config.yml 中的参数进行修改。 在 _config.yml 文件的最下面，可以看到下面这段代码 12deploy: type: 我们需要对这段代码进行一下修改 1234deploy: type: git repo: &lt;这里填写你SSH URLs&gt; branch: master 生成SSH私钥与公钥打开 Git Bash，运行命令 cd .ssh/，ls 查看当前文件是否已经有公钥和私钥了，如果有的话，则不用生成了。 如果没有的话，运行命令 ssh-keygen，运行完之后，会生成两个文件，id_rsa （私钥） 和 id_rsa.pub （公钥） 这两个文件。 有了公钥之后，在公钥的当前文件夹运行 cat id_rsa.pub | clip，则会将公钥文件中的内容内容放在剪贴板上。 将公钥添加到Github 在 Github 页面点击右上角自己的头像。 选择 settings。 选择 SSH and GPG keys 点击 new SSH key 将公钥复制到 key 文本输入框中 点击 Add SSH key 按钮 测试SSH连接打开 Git Bash 运行 ssh -t git@github.com 运行完命令之后会有下面的提示 123The authenticity of host &apos;github.com (IP ADDRESS)&apos; can&apos;t be established.RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.Are you sure you want to continue connecting (yes/no)? 或者 123The authenticity of host &apos;github.com (IP ADDRESS)&apos; can&apos;t be established.RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.Are you sure you want to contin ue connecting (yes/no)? 这时输入 yes 即可。如果提示中的 fingerprint 认证成功的话，则会有下面的提示 12Hi username! You&apos;ve successfully authenticated, but Github does notprovide shell access. 将hexo部署到Github历经千辛万苦，终于可以将 hexo 部署到 Github 了。在 hexo 博客文件夹打开命令行，然后运行 hexo generate --deploy ，就会自动部署啦。部署完之后，打开你的 Gighub pages 就能看到你的博客了。 参考资料 hexo官方文档 服务器上的Git-生成SSH公钥 Connecting to Github with SSH 使用SSH密钥连接Github]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+</search>

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Dom 归纳（思维导图）]]></title>
+    <url>%2Fblog%2F2018%2F12%2F23%2Fdom%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <tags>
+        <tag>javascript</tag>
+        <tag>dom</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[VS code 常用扩展]]></title>
     <url>%2Fblog%2F2018%2F12%2F22%2Fvscode-most-used-extensions%2F</url>
     <content type="text"><![CDATA[EditorConfig for VS Code One Dark Pro TODO Highlight vscode-icons auto 系列 Auto Close Tag Auto Import Auto Rename Tag markdown 系列 Markdown All in One Markdown Preview Github Styling 前端系列 Beautify css/sass/scss/less ESLint IntelliSense for CSS class names in HTML javascript console utils Turbo Console Log Live Server Sublime Babel]]></content>

@@ -1,5 +1,14 @@
 #!/bin/bash
-hexo generate
+git pull
+
+if [ $? -eq 0 ]
+    then
+        echo '已获取最新的代码'
+        hexo generate
+else
+    echo '获取最新代码失败'
+    exit
+fi
 
 if [ $? -eq 0 ] 
     then 

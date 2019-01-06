@@ -11,19 +11,19 @@ tags: tool
 - highlight-selected
 
 - minimap 系列
-    - minimap
-    - minimap-find-and-replace
-    - minimap-highlight-selected
-    - minimap-linter
+  - minimap
+  - minimap-find-and-replace
+  - minimap-highlight-selected
+  - minimap-linter
 
 - markdown 系列
-    - markdown-code-blocks
-    - markdown-writer
-    - markdown-preview-enhanced
+  - markdown-code-blocks
+  - markdown-writer
+  - markdown-preview-enhanced
 
 - 前端系列
-    - atom-live-server
-    - console-log
-    - docblockr: 用于生成注释
-    - language-babel
-    - linter-eslint
+  - atom-live-server
+  - console-log
+  - docblockr: 用于生成注释
+  - language-babel
+  - linter-eslint

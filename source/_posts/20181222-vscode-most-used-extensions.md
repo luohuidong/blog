@@ -13,20 +13,19 @@ tags: tool
 - vscode-icons
 
 - auto 系列
-    - Auto Close Tag
-    - Auto Import
-    - Auto Rename Tag
+  - Auto Close Tag
+  - Auto Import
+  - Auto Rename Tag
 
 - markdown 系列
-    - Markdown All in One
-    - Markdown Preview Github Styling
+  - Markdown All in One
+  - Markdown Preview Github Styling
 
 - 前端系列
-    - Beautify css/sass/scss/less
-    - ESLint
-    - IntelliSense for CSS class names in HTML
-    - javascript console utils
-    - Turbo Console Log
-    - Live Server
-    - Sublime Babel
-
+  - Beautify css/sass/scss/less
+  - ESLint
+  - IntelliSense for CSS class names in HTML
+  - javascript console utils
+  - Turbo Console Log
+  - Live Server
+  - Sublime Babel

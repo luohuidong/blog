@@ -4,7 +4,6 @@ tags: javascript
 date: 2019-01-11 18:39:52
 ---
 
-
 ## 了解前端实现 HTTP 请求的几种方式
 
 在开始深入了解前端 HTTP 请求之前，可以阅读下面的文章，这样可以对前端的 HTTP 请求的几种方式有初步的印象。
@@ -32,25 +31,18 @@ date: 2019-01-11 18:39:52
 - [JavaScript 高级程序设计](http://www.ituring.com.cn/book/946)：强烈推荐一定要看《JS 高程》，除了了解 Ajax 之外，还能顺便把跨域问题给了解了。
 - [MDN: Ajax](https://developer.mozilla.org/zh-CN/docs/Web/Guide/AJAX)
 
-深入了解 XMLHttpRequest 可以查看下面的文档：
+Ajax 可以通过以下几种方式去实现：
 
-- [XMLHttpRequest](https://xhr.spec.whatwg.org/)
-
-使用纯粹的 Ajax 去实现前后端数据交互比较复杂，因此可以借用一下框架去实现，例如 jQuery。
-
-- [jQuery.ajax](https://api.jquery.com/jQuery.ajax/)
-
-## Fetch
-
-- [MDN: Fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)
-
-## Axios
-
-- [Axios](https://github.com/axios/axios)
+- 浏览器 XMLHttpRequest 对象：[XMLHttpRequest](https://xhr.spec.whatwg.org/)
+- 使用 XMLHttpRequest 对象去实现 Ajax 可能比较繁杂，则可以利用下面几种方式：
+  - [jQuery.ajax](https://api.jquery.com/jQuery.ajax/)
+  - [MDN: Fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch)
+  - [Axios](https://github.com/axios/axios)
 
 ## HTTP
 
 - [MDN: HTTP](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
+- 《图解 HTTP》
 
 ## 跨域问题
 

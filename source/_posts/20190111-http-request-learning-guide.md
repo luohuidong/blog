@@ -46,9 +46,8 @@ Ajax 可以通过以下几种方式去实现：
 
 ## 跨域问题
 
+- [MDN: HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
 - 《JavaScript 高级程序设计》（第3版）第 21 章
 - [MDN: CSP 策略指令](https://developer.mozilla.org/zh-CN/docs/Web/Security/CSP/CSP_policy_directives)
 - [MDN: Same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)：浏览器同源策略
-- [MDN: HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS#%E8%B0%81%E5%BA%94%E8%AF%A5%E8%AF%BB%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%EF%BC%9F)
-- [ajax跨域完全讲解](https://www.imooc.com/learn/947)：视频
 - [不要再问我跨域的问题了](https://segmentfault.com/a/1190000015597029)

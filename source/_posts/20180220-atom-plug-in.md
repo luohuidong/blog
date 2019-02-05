@@ -6,19 +6,20 @@ tags: tool
 
 ## 通用类插件
 
-- emmet：代码快速输入
 - file-icons：文件图标
 - highlight-line：高亮行
 - highlight-selected：高亮与选择相同的内容
 - docblockr：快速生成注释
 - minimap
-- minimap-hightlight-selected
-- minimap-linter
+  - minimap-find-and-replace
+  - minimap-highlight-selected
+  - minimap-linter
 - editorconfig
 - autoclose-tags
 
 ## 前端类插件
 
+- emmet：代码快速输入
 - atom-beautify：代码的美化
 - atom-ternjs：js语法支持
 - linter-eslint
@@ -26,6 +27,8 @@ tags: tool
 - react-es6-snippets
 - react-native-snippets
 - react-snippets
+- atom-live-server
+- console-log
 
 ## 终端插件
 
@@ -37,3 +40,5 @@ tags: tool
 - tidy-markdown
 - markdown-toc-auto
 - markdown-scroll-sync
+- markdown-writer
+- markdown-code-blocks

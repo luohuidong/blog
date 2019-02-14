@@ -21,7 +21,7 @@ date: 2019-02-14 20:17:59
 
   URLs can also be used for file transfer (FTP) , emails (SMTP), and other applications.
 
-  URL 就是我们在浏览器输入的网址。它跟 URI 一样，也是字符串，它告诉我们要选找的资源在哪里。
+  URL 最为常见的就是我们在浏览器输入的网址。它跟 URI 一样，也是字符串，它告诉我们要寻找的资源在哪里。
 
 - URN:
 
@@ -43,3 +43,4 @@ date: 2019-02-14 20:17:59
 - [URL](https://developer.mozilla.org/en-US/docs/Glossary/URL)
 - [URN](https://developer.mozilla.org/en-US/docs/Glossary/URN)
 - [URIs, URLs, and URNs: Clarifications and Recommendations 1.0](https://www.w3.org/TR/uri-clarification/)
+- [What is the difference between URI, URL and URN?](https://stackoverflow.com/questions/4913343/what-is-the-difference-between-uri-url-and-urn)

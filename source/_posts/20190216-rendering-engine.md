@@ -7,7 +7,7 @@ date: 2019-02-16 04:08:01
 
 这篇文章为 [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) 关于 rendering engines 部分的笔记。
 
-![rendering-engines](/images/rendering-engines.png)
+![rendering-engines](https://user-images.githubusercontent.com/26449894/52899771-b9468d00-3228-11e9-8c53-6cb68cff1562.png)
 
 Rendering engines 即为浏览器渲染引擎。它的主要作用就是将请求回来的内容展示在浏览器上。
 
@@ -33,11 +33,11 @@ Rendering engines 即为浏览器渲染引擎。它的主要作用就是将请�
 
 WebKit rendering engine 渲染流程图：
 
-![webkit-rendering-engine-main-flow](/images/webkit-rendering-engine-main-flow.png)
+![webkit-rendering-engine-main-flow](https://user-images.githubusercontent.com/26449894/52899786-e5620e00-3228-11e9-97db-8b755e3772b9.png)
 
 Gecko rendering engine 渲染流程图：
 
-![gecko-rendering-engine-main-flow](/images/gecko-rendering-engine-main-flow.jpg)
+![gecko-rendering-engine-main-flow](https://user-images.githubusercontent.com/26449894/52899792-f579ed80-3228-11e9-9f09-faa9fdfc53c2.jpg)
 
 尽管 WebKit 与 Gecko 所使用的术语不同，但是其渲染过程基本上是一样的。
 

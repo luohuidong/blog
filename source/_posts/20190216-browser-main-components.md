@@ -17,6 +17,6 @@ date: 2019-02-16 00:12:10
 1. JavaScript interpreter：用于解析和执行 JS 代码。
 1. Data storage：这是一个持久层。浏览器需要在本地保存各种的数据，例如 cookies。浏览器还支持 localStorage, indexedDB, WebSQL 和 FileSystem 存储机制。
 
-![browser component](/images/browser-components.png)
+![image](https://user-images.githubusercontent.com/26449894/52899710-ff4f2100-3227-11e9-912e-aec8d6517ece.png)
 
 需要注意的是 Chrome 每一个 tab 都是一个 rendering engine 的实例，每一个 tab 都是一个独立的进程。

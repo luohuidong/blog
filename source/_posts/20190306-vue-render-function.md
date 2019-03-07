@@ -1,7 +1,6 @@
 ---
 title: Vue 中如何解析模板
 tags:
-  - frontend
   - vue
   - mvvm
 date: 2019-03-06 23:15:42
@@ -117,3 +116,7 @@ render 函数中，this 即为 vue 实例。
 如果对 Virtual DOM 有点陌生的，可以查看一下 [snabbdom](https://github.com/snabbdom/snabbdom) 的介绍。这里简单介绍一下 snabbdom。snabbdom 是通过 `h` 函数生成 Virtual Node，然后利用 `patch` 函数将 Virtual Node 渲染到页面中。而且 `patch` 还可以对比 Virtual Node 的前后差异，并且只对有差异的地方进行 DOM 的更改。
 
 `render` 函数返回的 Virtual Node 渲染到页面的过程与 snabbdom 将 Virtual Node 渲染到页面是非常类似的。
+
+## 资料
+
+- [Introduction to Vue.js Render Functions](https://alligator.io/vuejs/introduction-render-functions/)

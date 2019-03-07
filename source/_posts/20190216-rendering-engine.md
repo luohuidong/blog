@@ -1,6 +1,6 @@
 ---
 title: 浏览器工作原理之渲染引擎 (rendering engines)
-tags: frontend
+tags: 浏览器工作原理
 date: 2019-02-16 04:08:01
 ---
 

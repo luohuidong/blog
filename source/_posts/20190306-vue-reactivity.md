@@ -1,7 +1,6 @@
 ---
 title: Vue 响应式原理
 tags:
-  - frontend
   - vue
   - mvvm
 date: 2019-03-06 13:57:26
